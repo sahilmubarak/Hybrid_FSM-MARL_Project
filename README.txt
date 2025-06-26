@@ -1,3 +1,20 @@
+You first need to install the following
+
+Requirements:
+Unity (2022.3.20f1).
+ML-Agents Toolkit (v0.30.0).
+Python 3.9.13.
+
+Getting it to work:
+
+After installing unit, go to 
+1. Unity Hub > Add > Add project from disk. Then select the downloaded location of this folder.
+Unity will recognise the folder and create the required files to make it usable.
+2. After the project opens in unity, create a python virtual environment in the Project Folder
+3. Now your Project should be set up, Restart Unity and hit play, the sim should run.
+
+To train and monitor the MARL brains.
+ 
 1. **Open Command Prompt**  
    Press `Win + R`, type `cmd`, and hit Enter.
 
