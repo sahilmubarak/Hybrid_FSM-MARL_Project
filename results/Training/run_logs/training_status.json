@@ -1,0 +1,60 @@
+{
+    "WandererShopperBrain": {
+        "checkpoints": [
+            {
+                "steps": 13418,
+                "file_path": "results\\Training\\WandererShopperBrain\\WandererShopperBrain-13418.onnx",
+                "reward": 17.5,
+                "creation_time": 1744106004.371379,
+                "auxillary_file_paths": [
+                    "results\\Training\\WandererShopperBrain\\WandererShopperBrain-13418.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 13418,
+            "file_path": "results\\Training\\WandererShopperBrain.onnx",
+            "reward": 17.5,
+            "creation_time": 1744106004.371379,
+            "auxillary_file_paths": [
+                "results\\Training\\WandererShopperBrain\\WandererShopperBrain-13418.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.6.0+cpu"
+    },
+    "ImpulseShopperBrain": {
+        "checkpoints": [
+            {
+                "steps": 12245,
+                "file_path": "results\\Training\\ImpulseShopperBrain\\ImpulseShopperBrain-12245.onnx",
+                "reward": -22.5,
+                "creation_time": 1744121272.648597,
+                "auxillary_file_paths": [
+                    "results\\Training\\ImpulseShopperBrain\\ImpulseShopperBrain-12245.pt"
+                ]
+            },
+            {
+                "steps": 14958,
+                "file_path": "results\\Training\\ImpulseShopperBrain\\ImpulseShopperBrain-14958.onnx",
+                "reward": null,
+                "creation_time": 1744121788.3045638,
+                "auxillary_file_paths": [
+                    "results\\Training\\ImpulseShopperBrain\\ImpulseShopperBrain-14958.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 14958,
+            "file_path": "results\\Training\\ImpulseShopperBrain.onnx",
+            "reward": null,
+            "creation_time": 1744121788.3045638,
+            "auxillary_file_paths": [
+                "results\\Training\\ImpulseShopperBrain\\ImpulseShopperBrain-14958.pt"
+            ]
+        }
+    }
+}

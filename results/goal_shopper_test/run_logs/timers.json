@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1743697009",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\UnityProjects\\First ML Project\\venv\\Scripts\\mlagents-learn config/MARL_Brain.yaml --run-id=goal_shopper_test --force",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1743697033"
+    },
+    "total": 24.870263299999998,
+    "count": 1,
+    "self": 0.010478800000001343,
+    "children": {
+        "run_training.setup": {
+            "total": 0.2352348999999998,
+            "count": 1,
+            "self": 0.2352348999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 24.624549599999998,
+            "count": 1,
+            "self": 0.00010389999999560473,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 24.6244328,
+                    "count": 1,
+                    "self": 24.6244328
+                },
+                "TrainerController._save_models": {
+                    "total": 1.2900000001536682e-05,
+                    "count": 1,
+                    "self": 1.2900000001536682e-05
+                }
+            }
+        }
+    }
+}
